@@ -1,0 +1,27 @@
+# File,           	Veda Window, 	When updated, 	             Git track\\
+# ==========================================================
+# FrontEndFormFormSettings,	Front,	Front end? When VEDA updated maybe?,	N
+# NavigatorSettings,	Navigtor,	When model reloaded,	 		N
+# BrowseFormSettings,	Browse,	     When Browse used,				N
+# MasterFormFormSettings,	Item Details,	When RES opened/navigated,	N
+# Cases,		Run manager,	Cases selected for a run,		N
+# Settings,		Run manager,	Run solver settings edited,		N
+# Groups, 		Run manager,	Scenario groups edited,			Y
+# ResultsFormSettings, 	Results,	Results window opened,			N
+# ResultViews, 		Results,	When results table opened,		N
+# ResultViewsDetails,	Results,	When results table opened, 		N
+########################################################
+
+
+#Ignore the setting for each veda view
+
+AppData/*FormSettings.json
+AppData/NavigatorSettings.json
+AppData/Settings.json
+
+#Ignore the results views from repo
+ 
+AppData/ResultViewsDetails.json  
+
+# Uncomment to ignore saved cases.
+# AppData/Cases.json
